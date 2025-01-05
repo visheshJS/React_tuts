@@ -1,9 +1,16 @@
+import Chai from "./chai"
+
 function App() {
   
 
   return (
-    <h1>chai aur react with vishesh</h1>
-  )
-}
+    <>
+      <Chai/>
+      <h1>chai aur react</h1>
+      <p>Lorem, ipsum dolor.</p>
 
-export default App
+    </>
+  )
+};
+
+export default App;
