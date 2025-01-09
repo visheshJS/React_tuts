@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div className="w-full h-screen duration-200"
+      <div className="w-full h-screen duration-300"
       style={{backgroundColor:color}}
       ></div>
 
