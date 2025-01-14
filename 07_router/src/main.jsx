@@ -4,13 +4,13 @@ import './index.css'
 import App from './App.jsx'
 import { RouterProvider,createBrowserRouter, createRoutesFromElements,Route } 
 from 'react-router-dom'
-import Layout from './layout.jsx'
-import Home from './components/home/home.jsx'
+import Layout from './Layout.jsx'
 import About from './components/About/About.jsx'
-import Contact from './components/Contacts/contacts.jsx'
+import Contact from './components/Contacts/Contacts.jsx'
 import Github from './components/Github/Github.jsx'
 import User from './components/User/User.jsx'
 import { githubInfoLoader } from './components/Github/Github.jsx'
+import Home from './components/Home/Home.jsx'
 
 
 

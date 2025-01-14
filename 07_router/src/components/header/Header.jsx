@@ -4,7 +4,7 @@ import {Link, NavLink} from 'react-router-dom'
 export default function Header() {
     return (
         <header className="shadow-lg sticky border rounded-xl z-50 top-0 bg-gray-200 px-4 py-4 ">
-            <nav className="bg-gray-200 px-4 lg:px-6 py-2.5 border-none rounded-xl">
+            <nav className="bg-gray-200 px-6 py-2.5 border-none rounded-xl">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                     <Link to="/" className="flex items-center">
                         <img
@@ -28,10 +28,10 @@ export default function Header() {
                         </Link>
                     </div>
                     <div
-                        className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
+                        className="hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
                         id="mobile-menu-2"
                     >
-                        <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                        <ul className="flex flex-col mt-4 font-medium md:flex-row md:space-x-8 md:mt-0">
                             <li>
                                 <NavLink
                                 to="/"
