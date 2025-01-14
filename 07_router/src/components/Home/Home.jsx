@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
-        <div className="mx-auto w-full max-w-7xl">
+        <div className="mx-auto py-10 mb-10 w-full max-w-7xl">
             <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
                 <div className="relative z-10 max-w-screen-xl px-4  pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
                     <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
@@ -32,15 +32,15 @@ export default function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-[400px]" src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29kaW5nfGVufDB8fDB8fHww" alt="image1" />
+                    <img className="w-[400px] border-none rounded-3xl" src="https://cdn.logojoy.com/wp-content/uploads/20220329165412/app-logo-design-ideas.jpg" alt="image1" />
                 </div>
             </aside>
 
-            <div className="grid  place-items-center sm:mt-20">
+            {/* <div className="grid  place-items-center sm:mt-20">
                 <img className="sm:w-96 w-48" src="https://www.springboard.com/blog/wp-content/uploads/2022/09/programmng-language.jpg" alt="image2" />
-            </div>
+            </div> */}
 
-            <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>
+            {/* <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">What are you waiting for?</h1> */}
         </div>
     );
 }

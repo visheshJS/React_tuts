@@ -10,7 +10,7 @@ export default function About() {
 
                           src="https://avatars.githubusercontent.com/u/190731678?v=4"
                           alt="image"
-                          className='w-[400px] h-[400px] border rounded-lg outline-2 outline'
+                          className='w-[400px] h-[400px] border-black border-4 rounded-lg '
                       />
                   </div>
                   <div className="md:7/12 lg:w-6/12">
